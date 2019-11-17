@@ -1,0 +1,5 @@
+Hi,
+Kindly review the Australia Job application({!Job_Form__c.Name}) submitted by user({!Job_Form__c.OwnerFullName}) and provide the necessary approval/rejection.
+
+Regards,
+HR Team

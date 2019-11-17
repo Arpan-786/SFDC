@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Expense Incurred in Rs --></label>
+        <name>Expense_Incurred_in_Rs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expense Type --></label>
+        <name>Expense_Type__c</name>
+        <picklistValues>
+            <masterLabel>Campus Drive</masterLabel>
+            <translation><!-- Campus Drive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Candidate Bonus</masterLabel>
+            <translation><!-- Candidate Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Income Tax</masterLabel>
+            <translation><!-- Income Tax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Tax</masterLabel>
+            <translation><!-- Sales Tax --></translation>
+        </picklistValues>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Expense Mgmt</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Expense Mgmt</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>Fin Department</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>HR Depart</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- RT Fin Department --></label>
+        <name>RT_Fin_Department</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- RT HR Department --></label>
+        <name>RT_HR_Department</name>
+    </recordTypes>
+</CustomObjectTranslation>

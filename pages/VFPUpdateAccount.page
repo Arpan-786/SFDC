@@ -1,0 +1,23 @@
+<apex:page controller="AccountTable11">
+  <apex:form >
+  <apex:pageBlock >  
+  <apex:pageBlockTable value="{!act1}" var="v">
+  
+  <apex:column headerValue="ACCOUNT NAME">
+   <apex:inputText value="{!v.name}"/>
+   </apex:column>
+  
+  <apex:column headerValue="ACCOUNT SITE" >  
+  <apex:inputText value="{!v.site}"/ >
+  </apex:column>  
+  
+  
+  <apex:column > 
+  <apex:commandLink value="Update" action="{!updateaccount}"/>
+  </apex:column>
+    
+  
+  </apex:pageBlockTable> 
+  </apex:pageBlock>  
+  </apex:form>  
+</apex:page>

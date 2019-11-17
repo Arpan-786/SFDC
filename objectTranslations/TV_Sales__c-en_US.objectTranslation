@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- LCD Warranty Number --></label>
+        <name>LCD_Warranty_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- LED Service Vendor Phone --></label>
+        <name>LED_Service_Vendor_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- MRP --></label>
+        <name>MRP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plasma Panel code --></label>
+        <name>Plasma_Panel_code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+        <picklistValues>
+            <masterLabel>LCD</masterLabel>
+            <translation><!-- LCD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LED</masterLabel>
+            <translation><!-- LED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plasma</masterLabel>
+            <translation><!-- Plasma --></translation>
+        </picklistValues>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>TV Sale</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TV Sales</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>LCD Page Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>LED Page Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Plasma Page Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Record type for LCD Product type --></description>
+        <label><!-- LCD RT --></label>
+        <name>LCD_RT</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record type for LED Product type --></description>
+        <label><!-- LED RT --></label>
+        <name>LED_RT</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Record type for Plasma Product type --></description>
+        <label><!-- Plasma RT --></label>
+        <name>Plasma_RT</name>
+    </recordTypes>
+</CustomObjectTranslation>

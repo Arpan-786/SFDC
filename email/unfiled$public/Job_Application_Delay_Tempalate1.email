@@ -1,0 +1,7 @@
+Hi {!Job_Form__c.First_Name__c}, 
+
+Sorry! you application will be delayed as your experience {!Job_Form__c.Experience_in_Months__c} months is not meeting the requirement. 
+
+
+Regards, 
+HR Team

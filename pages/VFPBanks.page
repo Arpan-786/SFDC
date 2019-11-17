@@ -1,0 +1,23 @@
+<apex:page controller="updateRecordCon">
+
+  
+  
+    <apex:form >
+     <apex:pageBlock >
+        <apex:pageBlockTable value="{!act}" var="b">
+            <apex:column headervalue="Bank Name">
+                <apex:inputtext value="{!b.Name}" /> 
+            </apex:column>            
+            <apex:column headervalue="Site">
+                <apex:inputtext value="{!b.site}" />
+            </apex:column>
+           
+            
+            <apex:column >
+                <apex:commandLink value="Update" action="{!updateRecord}"/>                            
+            </apex:column>                                                                                   
+    </apex:pageBlockTable>
+    </apex:pageBlock>
+    </apex:form> 
+         
+</apex:page>

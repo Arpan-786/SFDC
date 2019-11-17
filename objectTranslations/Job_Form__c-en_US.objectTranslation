@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>Approval_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Id --></label>
+        <name>Email_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Experience in Months --></label>
+        <name>Experience_in_Months__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter First Name of the Candidate --></help>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter your Gender --></help>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>F</masterLabel>
+            <translation><!-- F --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M</masterLabel>
+            <translation><!-- M --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Job Status --></label>
+        <name>Job_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Languages Known --></label>
+        <name>Languages_Known__c</name>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C#</masterLabel>
+            <translation><!-- C# --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C++</masterLabel>
+            <translation><!-- C++ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Java</masterLabel>
+            <translation><!-- Java --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Python</masterLabel>
+            <translation><!-- Python --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter last name of the Candidate --></help>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outlook Name --></label>
+        <name>Outlook_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the Country Name where you prefer to work --></help>
+        <label><!-- Preferred Country --></label>
+        <name>Preferred_Country__c</name>
+        <picklistValues>
+            <masterLabel>Australia</masterLabel>
+            <translation><!-- Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada</masterLabel>
+            <translation><!-- Canada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finland</masterLabel>
+            <translation><!-- Finland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>India</masterLabel>
+            <translation><!-- India --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Italy</masterLabel>
+            <translation><!-- Italy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Turkey</masterLabel>
+            <translation><!-- Turkey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter the Salary Expected --></help>
+        <label><!-- Salary Expected --></label>
+        <name>Salary_Expected__c</name>
+    </fields>
+    <fields>
+        <label><!-- USID --></label>
+        <name>USID__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Job Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Job Forms</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>Job Form Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <workflowTasks>
+        <description><!-- Hi,
+Kindly return the candidates documents as his application will be delayed. 
+
+
+Regards,
+HR Team --></description>
+        <name>Return_Doc_Task</name>
+        <subject><!-- Return Doc Task --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>
