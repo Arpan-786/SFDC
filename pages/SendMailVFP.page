@@ -1,0 +1,26 @@
+<apex:page controller="Sendmail">
+<apex:form >
+
+<apex:pageBlock title="User Email Page">
+<apex:pageBlockButtons >
+<apex:commandButton value="send mail" action="{!fnsendmail}"/>
+</apex:pageBlockButtons>
+
+<apex:pageBlockSection >
+
+
+
+<apex:outputLabel value="To Address"></apex:outputLabel>
+<apex:inputText value="{!tomail}" id="to"/>
+
+<apex:outputLabel value="CC Address"></apex:outputLabel>
+<apex:inputText value="{!ccmail}" id="cc"/>
+
+<apex:outputLabel value="Reply To Address"></apex:outputLabel>
+<apex:inputText value="{!replytomail}" id="rto"/>
+
+</apex:pageBlockSection>
+
+</apex:pageBlock>
+</apex:form>
+</apex:page>

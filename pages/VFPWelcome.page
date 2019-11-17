@@ -1,0 +1,25 @@
+<apex:page controller="WelcomeClass">
+  
+  <apex:form >
+     <apex:pageBlock title="User Page">
+     <apex:pageBlockSection title="Enter the Data" columns="2">
+     
+     <apex:outputLabel >Enter First Name</apex:outputLabel>
+     <apex:inputText value="{!firstname}"/>
+     <apex:outputLabel >Enter Last Name</apex:outputLabel>
+     <apex:inputText value="{!lastname}"/>
+     
+     <apex:commandButton action="{!showmessage}" value="Click Me" rerender="msg"/>       
+     <apex:outputLabel id="msg">{!message}</apex:outputLabel>
+     
+     <apex:commandButton action="{!showmessage1}" value="Click Me2" rerender="msg1"/>
+     <apex:outputlabel id="msg1">{!message1}</apex:outputlabel>
+     
+     <apex:commandButton action="{!resetmessage}" value="Reset Message" rerender="msg, msg1"/>  
+     
+     
+     
+     </apex:pageBlockSection>      
+    </apex:pageBlock>
+    </apex:form>
+</apex:page>

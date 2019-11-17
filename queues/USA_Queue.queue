@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>arpans786@gmail.com</email>
+    <name>USA Queue</name>
+    <queueMembers>
+        <users>
+            <user>arpan.sharma2@cognizant.com</user>
+            <user>arpans786@gmail.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Job_Form__c</sobjectType>
+    </queueSobject>
+</Queue>

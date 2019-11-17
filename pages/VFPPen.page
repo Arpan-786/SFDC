@@ -1,0 +1,37 @@
+<!--apex:page controller="ShowPen" renderAs="pdf"-->
+<apex:page controller="ShowPen" >
+  <apex:form >
+  <apex:pageBlock title="Salesforce PenList">
+ 
+  <!--apex:pageBlockButtons rendered="{!If(Pen.size < 0, false, true)}" -->
+  <apex:pageBlockButtons rendered="{!If(Pen.size < 0, false, true)}" >
+  <apex:commandButton action="{!updatePen}" value="Update"/>
+  </apex:pageBlockButtons>
+  
+  
+<apex:pageBlockTable value="{!Pen}" var="P">
+
+<apex:column headerValue="Name">
+<apex:outputtext value="{!P.Name}"/>
+</apex:column>
+
+<apex:column headerValue="Cost">
+<apex:outputtext value="{!P.Pen_Cost__c}"/>
+</apex:column>
+
+<apex:column headerValue="Comments">
+<apex:inputfield value="{!P.Comments__c}"/>
+</apex:column>
+
+<apex:column headerValue="Customer Ji">
+<apex:outputtext value="{!P.Customer_Name__c}"/>
+</apex:column>
+
+
+</apex:pageBlockTable>
+  
+  </apex:pageBlock>
+   
+  </apex:form>
+    
+</apex:page>
