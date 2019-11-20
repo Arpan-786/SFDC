@@ -22,7 +22,7 @@ global class PenBatch implements database.Batchable<sObject>, database.Stateful 
             
         }
             update scope;
-        system.debug('total records updated ' + count );
+        system.debug('1total records updated ' + count );
         
     }
     
